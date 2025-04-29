@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porto Rocha - Project Archive</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 侧边栏 -->
+        <div class="sidebar">
+            <!-- Logo -->
+            <div class="logo">Sensen space</div>
+            
+            <!-- 顶部状态栏 -->
+            <div class="status-bar">
+                <div class="toggle-container">
+                    <span>ON</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="theme-toggle">
+                        <span class="slider round"></span>
+                    </label>
+                    <span>OFF</span>
+                </div>
+            </div>
+            
+            <!-- 显示所有项目按钮 -->
+            <div class="show-all-projects">
+                <a href="#" class="show-all-btn">Show All Projects</a>
+            </div>
+            
+            <!-- 导航区域 -->
+            <div class="sidebar-content">
+                <!-- Info入口按钮 -->
+                <div class="info-button" id="info-button">
+                    <div class="project-item" data-type="info">
+                        <div class="project-thumbnail" style="background-color: #3498DB;">INFO</div>
+                        <div class="project-content">
+                            <h3>Info</h3>
+                            <div class="project-details">
+                                <p>About me, Contact & Location</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 项目导航 -->
+                <div class="nav-section" id="projects-section">
+                    <div class="section-content active">
+                        <div class="project-item" data-id="project1">
+                            <div class="project-thumbnail" style="background-color: #E74C3C;">MASP</div>
+                            <div class="project-content">
+                                <h3>MASP</h3>
+                                <div class="project-details">
+                                    <p>A modern identity for a modernist icon</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-item" data-id="project2">
+                            <div class="project-thumbnail" style="background-color: #000;">NIKE</div>
+                            <div class="project-content">
+                                <h3>Nike Run</h3>
+                                <div class="project-details">
+                                    <p>A dynamic new identity rooted in legacy, built for the future</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-item" data-id="project3">
+                            <div class="project-thumbnail" style="background-color: #73D216;">RBHD</div>
+                            <div class="project-content">
+                                <h3>Robinhood</h3>
+                                <div class="project-details">
+                                    <p>A grown-up identity for a finance pioneer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-item" data-id="project4">
+                            <div class="project-thumbnail" style="background-color: #3465A4;">W</div>
+                            <div class="project-content">
+                                <h3>W Hotels</h3>
+                                <div class="project-details">
+                                    <p>A global rebrand for a new era of luxury hospitality</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-item" data-id="project5">
+                            <div class="project-thumbnail" style="background-color: #646464;">MoMA</div>
+                            <div class="project-content">
+                                <h3>MoMA</h3>
+                                <div class="project-details">
+                                    <p>Exhibition Design</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 主内容区域 -->
+        <div class="main-content" id="project-detail">
+            <!-- 项目详情内容将通过JavaScript动态加载 -->
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html> 
